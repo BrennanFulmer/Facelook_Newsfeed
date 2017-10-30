@@ -1,0 +1,307 @@
+
+
+.aboutheader {
+  background-color: rgb(17, 78, 232);
+  border: 3px solid black;
+  color: white;
+  height: 48px;
+}
+
+/*changed again*/
+.abouttitle {
+  margin-left: 5%;
+  margin-top: 6px;
+  font-weight: bold;
+  font-size: 32px;
+  float: left;
+  cursor: pointer;
+}
+/*changed again*/
+
+.facelooklogo {
+  font-family: 'Passion One', serif;
+  color: rgb(17, 102, 17);
+  border: 2px solid rgb(0, 68, 0);
+  background-color: rgb(136, 204, 136);
+  font-weight: bold;
+  padding: 2px 2px 2px 8px;
+  margin-right: 12px;
+  font-size: 28px;
+}
+
+.usersearch {
+  margin-left: 9%;
+  height: 40px;
+  width: 50%;
+  border: 2px solid black;
+  display: inline;
+  float: left;
+  font-size: 20px;
+  margin-top: 4px;
+}
+
+/*changed again*/
+.loggedinuser {
+  float: right;
+  margin-top: 13px;
+  margin-right: 5%;
+  font-size: 24px;
+  cursor: pointer;
+}
+/*changed again*/
+
+/*all below is new*/
+.newsfeedmain {
+  position: absolute;
+  width: calc(100% - 6px);
+  height: calc(180% - 57px);
+  border: 3px solid black;
+  border-top: 0;
+}
+
+.recentlyactive {
+  border-right: 3px solid black;
+  height: 100%;
+  width: 27%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  float: left;
+}
+
+.profilepic {
+  width: 120px;
+  height: 120px;
+  margin-top: 3%;
+  margin-left: 8%;
+  border: 2px solid black;
+}
+
+.profilelinks {
+  margin-top: -110px;
+  margin-left: calc(12% + 120px);
+}
+
+.profilelink {
+  font-size: 26px;
+}
+
+.edityprofile {
+  font-size: 17px;
+}
+
+.recenttitle {
+  margin: 100px 0 16px 8%;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.activefriend1 {
+  border: 2px solid black;
+  height: 80px;
+  width: 80px;
+  margin-left: 8%;
+  margin-bottom: 80px;
+}
+
+.otheractivefriends {
+  border: 2px solid black;
+  height: 80px;
+  width: 80px;
+  margin-top: 50px;
+  margin-left: 8%;
+  margin-bottom: 80px;
+}
+
+.activefriendusers {
+  margin-top: -150px;
+  margin-left: calc(11% + 80px);
+  font-size: 18px;
+}
+
+.itemcount {
+  color: grey;
+}
+
+.recentlink {
+  margin: 80px auto 0 auto;
+  font-size: 24px;
+}
+
+.postfeed {
+  height: 100%;
+  width: calc(73% - 3px);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.makepost {
+  margin-top: 3%;
+  border: 2px solid black;
+  width: 80%;
+  height: 174px;
+}
+
+.posttitle {
+  text-align: center;
+  background-color: lightgrey;
+  width: calc(100% - 16px);
+  border-bottom: 2px solid black;
+  padding: 8px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.makeposttext {
+  width: calc(100% - 30px);
+  margin: 10px;
+  height: 46px;
+  border: 2px solid black;
+  resize: none;
+  line-height: 250%;
+  height: 60px;
+}
+
+.postbox {
+  background-color: lightgrey;
+  width: 100%;
+  border-top: 2px solid black;
+  height: 52px;
+}
+
+.postbutton {
+  padding: 4px 16px 6px 16px;
+  background-color: rgb(17, 78, 232);
+  border: 2px solid black;
+  color: white;
+  float: right;
+  font-weight: bold;
+  box-shadow: 3px 3px 0 black;
+  margin: 9px 24px 0 0;
+}
+
+.friendpostpic {
+  border: 2px solid black;
+  height: 80px;
+  width: 80px;
+  margin: 16px 0 0 16px;
+}
+
+.friendpostuser {
+  position: absolute;
+  margin: -65px 0 0 110px;
+}
+
+.friendpost {
+  margin: 24px 16px 20px 16px;
+}
+
+.postactions {
+  background-color: lightgrey;
+  border-top: 2px solid black;
+  padding: 6px 8px 10px 8px;
+}
+
+.likebutton {
+  margin-right: 10px;
+}
+
+.undolike {
+  float: right;
+}
+
+.newestpost {
+  border: 2px solid black;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.newpost {
+  border: 2px solid black;
+  margin-top: 20px;
+  width: 80%;
+}
+
+.oldestpost {
+  border: 2px solid black;
+  margin-top: 20px;
+  width: 80%;
+  height: 733px;
+}
+
+.commentcontainer {
+  background-color: lightgrey;
+  padding-bottom: 33px;
+}
+
+.postcomment1 {
+  border-top: 2px solid grey;
+  padding-bottom: 12px;
+}
+
+.friendcommentpic1 {
+  width: 80px;
+  height: 80px;
+  margin: 24px;
+  border: 2px solid black;
+  float: left;
+}
+
+.commentusername {
+  margin: 24px 0 0 24px;
+}
+
+.comments {
+  margin: 0 16px 0 108px;
+}
+
+.commentlikes {
+  padding-right: 8px;
+  margin-left: 108px;
+}
+
+.darkgreycomments {
+  color: rgb(71, 71, 71);
+}
+
+.postcomment2 {
+  padding-bottom: 50px;
+}
+
+.friendcommentpic2 {
+  width: 80px;
+  height: 80px;
+  margin: 0 24px 24px 24px;
+  border: 2px solid black;
+  float: left;
+}
+
+.deletelike {
+  float: right;
+  padding-right: 8px;
+}
+
+.makecomment {
+  width: calc(100% - 30px);
+  margin: 12px;
+  border: 2px solid black;
+  resize: none;
+  line-height: 250%;
+  height: 60px;
+}
+
+.cancelcomment {
+  margin: 0 0 0 32px;
+}
+
+.commentbutton {
+  padding: 4px 16px 6px 16px;
+  background-color: rgb(17, 78, 232);
+  border: 2px solid black;
+  color: white;
+  float: right;
+  font-weight: bold;
+  box-shadow: 4px 4px 0 black;
+  margin: -3px 28px 0 0;
+}
